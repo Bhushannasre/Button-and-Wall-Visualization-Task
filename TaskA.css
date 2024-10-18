@@ -1,0 +1,40 @@
+/* * means all selector is a universal selector which set margin and padding to zero for looking same in all browser  */
+*{
+  margin: 0;
+  padding: 0;
+}
+/* this body attribute set the items align to center  */
+body {
+  text-align: center;
+  padding: 150px;
+}
+/* Set color to each button from the start */
+/* # is used before property beacuse its name is set as id in the html file */
+#redBtn {
+  background-color: red;
+}
+#yellowBtn {
+  background-color: yellow;
+}
+#greenBtn {
+  background-color: green;
+}
+/* Adjusting the button size and their border */
+button {
+  height: 40px;
+  width: 80px;
+  border-radius: 25px;
+  cursor: pointer;
+  border:None;
+}
+/* Putting heading inside the box */
+h1 {
+   width: 50%; /* Set a width for the element */
+   margin: 0 auto; /* Center the element horizontally */
+   text-align: center; /* Center the text inside the element */
+   box-sizing: border-box;
+   border: 1px solid black; width: 300px;
+}
+
+
+
