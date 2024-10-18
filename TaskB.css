@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Data will be set in the center of web page */
+body {
+  text-align: center;
+  padding:150px;
+}
+/* By default set color to each button */
+#redBtn {
+  background-color: red;
+}
+#yellowBtn {
+
+  background-color: yellow;
+}
+#greenBtn {
+  background-color: green;
+}
+
+/* button property is used to adjust the size of all button */
+button {
+  border-radius: 25px;
+  height: 40px;
+  width: 80px;
+  border:None;
+}
+/* Set Background color of rotation button to black and inner text to white color */
+#rotationBtn {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+h1 {
+   width: 50%; /* Set a width for the element */
+   margin: 0 auto; /* Center the element horizontally */
+   text-align: center; 
+   box-sizing: border-box;
+   border: 1px solid black; width: 400px;
+}
