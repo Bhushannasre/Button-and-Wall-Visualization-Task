@@ -1,0 +1,97 @@
+/* General reset and body styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Sets the overall font for the page. */
+body {
+  font-family: Arial, sans-serif;
+}
+/* Styling heading and  box */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+   width: 50%; 
+   margin: 0 auto; 
+   text-align: center; 
+   box-sizing: border-box;
+   border: 1px solid black; width: 400px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 10px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#chartForm {
+  background-image: url("Wall.jpg");
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#chartContainer {
+  width: 400px;
+  margin: 20px auto;
+}
+
+/* Styling for the result (Excel-like) table */
+#resultTable {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 20px;
+}
+/* Add border to make it Excel-like */
+#resultTable th, #resultTable td {
+  border: 1px solid black;
+  padding: 10px;
+}
+/* Light background for headers */
+#resultTable th {
+  background-color: #f4f4f4; 
+  font-weight: bold;
+}
+/* Alternating row background for a cleaner look */
+#resultTable tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+/* Row hover effect. when user hover on the rows in table it show the effect*/
+#resultTable tr:hover {
+  background-color: #e0e0e0; 
+}
+
+/* Style the chart and table containers */
+#chartContainer, #infoTableContainer {
+  text-align: center; 
+}
+
+/* Responsive design: adjust table for smaller screens */
+@media (max-width: 768px) {
+  #resultTable {
+    width: 90%;
+  }
+}
